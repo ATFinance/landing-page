@@ -86,3 +86,48 @@
     color: white;
   }
 }
+
+.launchpad {
+  height: auto;
+  background: $bg-color;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .title {
+    color: $second-color;
+    font-size: 20px;
+  }
+
+  .subtitle {
+    color: white;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+
+    @include breakpoint(mobile) {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &-desc {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+
+    @include breakpoint(mobile) {
+      font-size: 20px;
+    }
+  }
+
+  &-img {
+    width: 200px;
+
+    @include breakpoint(mobile) {
+      margin-top: 70px;
+    }
+  }
+}
