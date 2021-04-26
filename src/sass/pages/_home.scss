@@ -1,8 +1,8 @@
 .hero {
   height: auto;
-  background: $bg-color;
+  background: $main-color;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 
   @include breakpoint(mobile) {
     padding-top: 50px;
@@ -10,8 +10,7 @@
   }
 
   &-logo {
-    width: 250px;
-    margin-bottom: 40px;
+    width: 270px;
 
     @include breakpoint(mobile) {
       width: 150px;
@@ -20,17 +19,18 @@
 
   &-title {
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
+    line-height: 1.25;
 
     @include breakpoint(mobile) {
-      font-size: 26px;
+      font-size: 30px;
     }
   }
 
   &-subtitle {
     color: rgba(white, 0.7);
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 20px;
     margin-bottom: 40px;
 

@@ -1,8 +1,23 @@
 // button here
+.btn {
+  padding: 10px 25px;
+}
+
 .btn-main {
   background: $main-color;
   color: white;
   border-radius: 30px;
   padding: 14px 50px;
   text-transform: uppercase;
+}
+
+.btn-outline-white {
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+
+  &:hover {
+    color: $main-color !important;
+    background: white;
+  }
 }
