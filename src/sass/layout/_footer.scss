@@ -1,1 +1,49 @@
-// footer here
+.footer {
+  background: #010e28;
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+  @include breakpoint(mobile) {
+    padding-top: 70px;
+  }
+
+  &-title {
+    color: white;
+
+    @include breakpoint(mobile) {
+      margin-top: 30px;
+    }
+  }
+
+  &-link {
+    display: block;
+    color: hsla(0, 0%, 100%, 0.5);
+    margin-top: 10px;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  &-bottom {
+    border-top: 1px solid hsla(0, 0%, 100%, 0.5);
+    display: flex;
+    margin-top: 70px;
+    padding-top: 30px;
+    justify-content: space-between;
+
+    @include breakpoint(mobile) {
+      flex-direction: column;
+    }
+  }
+
+  &-logo {
+    width: 200px;
+  }
+
+  &-link-social {
+    @include breakpoint(mobile) {
+      margin-top: 30px;
+    }
+  }
+}
