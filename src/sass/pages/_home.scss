@@ -128,3 +128,25 @@
     }
   }
 }
+
+.faqs {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 120px;
+
+  .title {
+    color: $dark-color;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    color: $dark-light-color;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+    @include breakpoint(mobile) {
+      font-size: 18px;
+    }
+  }
+}
