@@ -91,9 +91,18 @@
 
 .launchpad {
   height: auto;
-  background: #214896;
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: #214896;
+  opacity: 1;
+  background-size: 28px 28px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #375aa0,
+    #375aa0 1.4px,
+    #214896 1.4px,
+    #214896
+  );
 
   .title {
     color: white;
