@@ -150,21 +150,3 @@
     }
   }
 }
-
-.subscribe {
-  height: auto;
-  background: $main-color;
-  padding-top: 50px;
-  padding-bottom: 40px;
-
-  .title {
-    color: white;
-    font-size: 35px;
-    font-weight: bold;
-  }
-
-  .btn {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-}
