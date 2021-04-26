@@ -68,14 +68,8 @@
     }
   }
 
-  .btn {
-    @include breakpoint(mobile) {
-      margin-bottom: 50px;
-    }
-  }
-
   &-icon {
-    margin-top: 120px;
+    margin-top: 40px;
     width: 100px;
     margin-bottom: 20px;
 
