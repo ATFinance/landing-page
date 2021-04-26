@@ -51,6 +51,7 @@
   height: auto;
   padding-top: 100px;
   padding-bottom: 120px;
+  background: white;
 
   .title {
     color: $dark-color;
@@ -125,6 +126,40 @@
 
     @include breakpoint(mobile) {
       margin-top: 70px;
+    }
+  }
+}
+
+.tokenomics {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background: white;
+
+  .title {
+    color: $dark-color;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .total-supply {
+    font-size: 80px;
+    font-weight: bold;
+    color: $dark-color;
+    text-align: center;
+    margin-top: 50px;
+
+    @include breakpoint(mobile) {
+      font-size: 30px;
+    }
+
+    span {
+      font-size: 20px;
+      font-weight: 400;
+
+      @include breakpoint(mobile) {
+        font-size: 16px;
+      }
     }
   }
 }
