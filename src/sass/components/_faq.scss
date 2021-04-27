@@ -1,8 +1,4 @@
 .faqs {
-  background: #ffffff;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-
   .card {
     border: none;
     border-bottom: 1px dashed #cee1f8;
@@ -78,8 +74,6 @@
 
 @media (max-width: 991px) {
   .faqs {
-    margin-bottom: 30px;
-
     .card .card-header .faq-title {
       line-height: 26px;
       margin-top: 10px;
