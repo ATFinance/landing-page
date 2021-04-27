@@ -59,9 +59,12 @@
 }
 
 .navbar-landing {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background: $main-color;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $main-color;
+  opacity: 1;
+  background-image: radial-gradient(#6780cf 1px, #022caf 1px);
+  background-size: 20px 20px;
 
   .navbar {
     &-logo {

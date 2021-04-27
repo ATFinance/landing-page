@@ -1,9 +1,13 @@
 .hero {
   height: auto;
-  background: $main-color;
   padding-top: 100px;
   padding-bottom: 250px;
   position: relative;
+  background-color: $main-color;
+  opacity: 1;
+  background-image: radial-gradient(#6780cf 1px, #022caf 1px);
+  background-size: 20px 20px;
+  margin-top: -10px;
 
   @include breakpoint(mobile) {
     padding-top: 50px;
@@ -12,6 +16,7 @@
 
   &-logo {
     width: 270px;
+    animation: bounce 1.4s infinite ease-out alternate;
 
     @include breakpoint(mobile) {
       width: 150px;
@@ -159,6 +164,10 @@
     @include breakpoint(mobile) {
       margin-top: 70px;
     }
+  }
+
+  .btn {
+    background: #214896;
   }
 }
 
