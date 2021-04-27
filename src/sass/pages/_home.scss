@@ -168,6 +168,11 @@
 
   .btn {
     background: #214896;
+
+    &:hover {
+      background: white;
+      color: #214896;
+    }
   }
 }
 
