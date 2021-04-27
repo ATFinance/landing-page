@@ -20,7 +20,7 @@
 
     @include breakpoint(mobile) {
       width: 150px;
-      margin-top: 50px;
+      margin-top: 70px;
     }
   }
 
@@ -55,6 +55,13 @@
 
   &-social {
     margin-top: 40px;
+
+    @include breakpoint(mobile) {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
     a {
       margin-left: 10px;
       margin-right: 10px;
