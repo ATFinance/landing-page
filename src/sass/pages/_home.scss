@@ -210,6 +210,14 @@
   padding-top: 100px;
   padding-bottom: 120px;
   background: $main-color;
+  background-color: #022caf;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #022caf 20px
+    ),
+    repeating-linear-gradient(#6780cf55, #6780cf);
 
   .title {
     color: white;
