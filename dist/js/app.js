@@ -18852,7 +18852,7 @@ var Chart = /*#__PURE__*/function () {
           breakpoint: 480,
           options: {
             chart: {
-              width: "100%"
+              width: "97%"
             },
             legend: {
               position: "bottom"
