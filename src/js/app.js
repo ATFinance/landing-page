@@ -9,8 +9,9 @@ AOS.init({
 });
 
 // import module
-import { Scroll } from "./modules";
+import { Scroll, Chart } from "./modules";
 
 jQuery(function () {
   Scroll.init();
+  Chart.init();
 });

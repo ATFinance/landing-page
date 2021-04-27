@@ -13,6 +13,7 @@
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.15.1",
         "aos": "^3.0.0-beta.6",
+        "apexcharts": "^3.26.1",
         "autoprefixer": "^9.8.6",
         "bootstrap": "^4.5.3",
         "browser-sync": "^2.26.13",

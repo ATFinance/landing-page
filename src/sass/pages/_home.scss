@@ -208,6 +208,22 @@
       }
     }
   }
+
+  .token-distribution {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    color: $dark-color;
+  }
+
+  #chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 .faqs {
