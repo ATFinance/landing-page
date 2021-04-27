@@ -1,7 +1,7 @@
 .hero {
   height: auto;
   padding-top: 100px;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
   position: relative;
   background-color: $main-color;
   opacity: 1;
@@ -20,6 +20,7 @@
 
     @include breakpoint(mobile) {
       width: 150px;
+      margin-top: 50px;
     }
   }
 
