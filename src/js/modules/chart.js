@@ -11,7 +11,7 @@ class Chart {
         "Community Activity Voting for Growth",
       ],
       chart: {
-        width: 650,
+        width: 530,
         type: "donut",
       },
       theme: {
@@ -39,6 +39,39 @@ class Chart {
 
     var chart = new ApexCharts(document.querySelector("#chart"), options);
     chart.render();
+
+    var options2 = {
+      series: [30, 70],
+      labels: ["Marketing & Development", "Liquidity"],
+      chart: {
+        width: 470,
+        type: "donut",
+      },
+      theme: {
+        monochrome: {
+          enabled: true,
+          color: "#0662c5",
+          shadeTo: "light",
+          shadeIntensity: 0.65,
+        },
+      },
+      responsive: [
+        {
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: "100%",
+            },
+            legend: {
+              position: "bottom",
+            },
+          },
+        },
+      ],
+    };
+
+    var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+    chart2.render();
   }
 }
 
