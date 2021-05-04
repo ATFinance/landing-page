@@ -298,6 +298,16 @@
       color: $dark-light-color;
     }
   }
+
+  &-icon {
+    margin-top: 40px;
+    height: 120px;
+    margin-bottom: 20px;
+
+    @include breakpoint(mobile) {
+      margin-top: 40px;
+    }
+  }
 }
 
 .roadmap {
