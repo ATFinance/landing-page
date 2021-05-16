@@ -18773,6 +18773,7 @@ aos__WEBPACK_IMPORTED_MODULE_1___default.a.init({
 jQuery(function () {
   _modules__WEBPACK_IMPORTED_MODULE_3__["Scroll"].init();
   _modules__WEBPACK_IMPORTED_MODULE_3__["Chart"].init();
+  _modules__WEBPACK_IMPORTED_MODULE_3__["Countdown"].init();
 });
 
 /***/ }),
@@ -18872,11 +18873,64 @@ var Chart = /*#__PURE__*/function () {
 
 /***/ }),
 
+/***/ "./src/js/modules/countdown.js":
+/*!*************************************!*\
+  !*** ./src/js/modules/countdown.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/* Countdown */
+var Countdown = /*#__PURE__*/function () {
+  function Countdown() {
+    _classCallCheck(this, Countdown);
+  }
+
+  _createClass(Countdown, null, [{
+    key: "init",
+    value: function init() {
+      var countdown = function countdown() {
+        var countDate = new Date("May 18, 2021 03:16:00").getTime();
+        var now = new Date().getTime();
+        var gap = countDate - now;
+        var second = 1000,
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24;
+        var textDay = Math.floor(gap / day),
+            textHour = Math.floor(gap % day / hour),
+            textMinute = Math.floor(gap % hour / minute),
+            textSecond = Math.floor(gap % minute / second);
+        document.querySelector(".day").innerText = textDay;
+        document.querySelector(".hour").innerText = textHour;
+        document.querySelector(".minute").innerText = textMinute;
+        document.querySelector(".second").innerText = textSecond;
+      };
+
+      setInterval(countdown, 1000);
+    }
+  }]);
+
+  return Countdown;
+}();
+
+/* harmony default export */ __webpack_exports__["default"] = (Countdown);
+
+/***/ }),
+
 /***/ "./src/js/modules/index.js":
 /*!*********************************!*\
   !*** ./src/js/modules/index.js ***!
   \*********************************/
-/*! exports provided: Scroll, Chart */
+/*! exports provided: Scroll, Chart, Countdown */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18886,6 +18940,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _chart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./chart */ "./src/js/modules/chart.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Chart", function() { return _chart__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _countdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./countdown */ "./src/js/modules/countdown.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Countdown", function() { return _countdown__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
 
 
 

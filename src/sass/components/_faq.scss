@@ -1,82 +1,82 @@
 .faqs {
-  .card {
-    border: none;
-    border-bottom: 1px dashed #cee1f8;
+    .card {
+        border: none;
+        border-bottom: 1px dashed #cee1f8;
 
-    .card-header {
-      padding: 0px;
-      border: none;
-      background: none;
-      -webkit-transition: all 0.3s ease 0s;
-      -moz-transition: all 0.3s ease 0s;
-      -o-transition: all 0.3s ease 0s;
-      transition: all 0.3s ease 0s;
+        .card-header {
+            padding: 0px;
+            border: none;
+            background: none;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
 
-      &:hover {
-        background: rgba($main-color, 0.1);
-        padding-left: 10px;
-      }
+            &:hover {
+                background: rgba($main-color, 0.1);
+                padding-left: 10px;
+            }
 
-      .faq-title {
-        width: 100%;
-        text-align: left;
-        padding: 0px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-weight: 400;
-        font-size: 15px;
-        letter-spacing: 1px;
-        color: #3b566e;
-        text-decoration: none !important;
-        -webkit-transition: all 0.3s ease 0s;
-        -moz-transition: all 0.3s ease 0s;
-        -o-transition: all 0.3s ease 0s;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-        padding-top: 20px;
-        padding-bottom: 20px;
+            .faq-title {
+                width: 100%;
+                text-align: left;
+                padding: 0px;
+                padding-left: 30px;
+                padding-right: 30px;
+                font-weight: 400;
+                font-size: 15px;
+                letter-spacing: 1px;
+                color: #3b566e;
+                text-decoration: none !important;
+                -webkit-transition: all 0.3s ease 0s;
+                -moz-transition: all 0.3s ease 0s;
+                -o-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+                cursor: pointer;
+                padding-top: 20px;
+                padding-bottom: 20px;
 
-        .badge {
-          display: inline-block;
-          width: 20px;
-          height: 20px;
-          line-height: 14px;
-          float: left;
-          -webkit-border-radius: 100px;
-          -moz-border-radius: 100px;
-          border-radius: 100px;
-          text-align: center;
-          background: $main-color;
-          color: #fff;
-          font-size: 12px;
-          margin-right: 20px;
+                .badge {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    line-height: 14px;
+                    float: left;
+                    -webkit-border-radius: 100px;
+                    -moz-border-radius: 100px;
+                    border-radius: 100px;
+                    text-align: center;
+                    background: $main-color;
+                    color: #fff;
+                    font-size: 12px;
+                    margin-right: 20px;
+                }
+            }
         }
-      }
-    }
 
-    .card-body {
-      padding: 30px;
-      padding-left: 35px;
-      padding-bottom: 16px;
-      font-weight: 400;
-      font-size: 16px;
-      color: #6f8ba4;
-      line-height: 28px;
-      letter-spacing: 1px;
-      border-top: 1px solid #f3f8ff;
+        .card-body {
+            padding: 30px;
+            padding-left: 35px;
+            padding-bottom: 16px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #6f8ba4;
+            line-height: 28px;
+            letter-spacing: 1px;
+            border-top: 1px solid #f3f8ff;
 
-      p {
-        margin-bottom: 14px;
-      }
+            p {
+                margin-bottom: 14px;
+            }
+        }
     }
-  }
 }
 
 @media (max-width: 991px) {
-  .faqs {
-    .card .card-header .faq-title {
-      line-height: 26px;
-      margin-top: 10px;
+    .faqs {
+        .card .card-header .faq-title {
+            line-height: 26px;
+            margin-top: 10px;
+        }
     }
-  }
 }
