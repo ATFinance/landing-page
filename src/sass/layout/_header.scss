@@ -1,0 +1,18 @@
+.header {
+    background: darken($main-color, 15%);
+    margin-bottom: -6px;
+    padding: 10px;
+
+    p {
+        margin-bottom: 0;
+        color: white;
+
+        @include breakpoint(mobile) {
+            font-size: 12px;
+        }
+    }
+
+    a {
+        color: white;
+    }
+}
