@@ -2,7 +2,7 @@
 class Countdown {
   static init() {
     const countdown = () => {
-      const countDate = new Date("May 29, 2021 05:30:00 UTC").getTime();
+      const countDate = new Date("May 29, 2021 06:20:00 UTC").getTime();
       const now = new Date().getTime();
       const gap = countDate - now;
 
