@@ -9,10 +9,9 @@ AOS.init({
 });
 
 // import module
-import { Scroll, Chart, Countdown } from "./modules";
+import { Scroll, Chart } from "./modules";
 
 jQuery(function () {
   Scroll.init();
   Chart.init();
-  Countdown.init();
 });
