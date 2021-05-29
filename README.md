@@ -25,3 +25,24 @@ Other links:
 * [Twitter](https://twitter.com/ATFinance_)
 * [BscScan](https://bscscan.com/token/0x87eba250a34e7486eab140d89e2eb5d8d113ea2d)
 * [GitHub](https://github.com/atfinance)
+
+## Installation
+
+1. Clone this repository.
+```bash
+git clone https://github.com/ATFinance/landing-page.git
+cd landing-page/
+```
+
+2. Install package depedencies using npm.
+```bash
+npm install
+```
+
+## Available scripts
+
+- `npm run dev`
+- `npm run watch`
+- `npm run hot`
+- `npm run prod`
+- `npm run serve`
